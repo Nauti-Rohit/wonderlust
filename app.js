@@ -65,9 +65,9 @@ const sessionOptions = {
   },
 };
 
- app.get("/wonderlust-yo1h.onrender.com", (req, res) => {
-  res.redirect("/listings");
- });
+ // app.get("/wonderlust-yo1h.onrender.com", (req, res) => {
+ //  res.redirect("/listings");
+ // });
 
 app.use(session(sessionOptions));
 app.use(flash());
