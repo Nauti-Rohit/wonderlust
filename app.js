@@ -65,7 +65,7 @@ const sessionOptions = {
   },
 };
 
- app.get("https://wonderlust-yo1h.onrender.com", (req, res) => {
+ app.get("/wonderlust-yo1h.onrender.com", (req, res) => {
   res.redirect("/listings");
  });
 
