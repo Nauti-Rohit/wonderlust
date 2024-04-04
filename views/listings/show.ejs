@@ -126,10 +126,10 @@
 
       <% for (review of listing.reviews) {%>
       <div class="card col-5 ms-3 mb-3">
-        <div class="card-body">
+        <div class="card-body rating-card">
           <h5 class="card-title">@<%= review.author.username %></h5>
           <p
-            class="starability-result card-text rating-card"
+            class="starability-result card-text "
             data-rating="<%=review.rating%>"
           ></p>
 
