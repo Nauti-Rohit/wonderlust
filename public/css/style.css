@@ -126,7 +126,7 @@ body {
 /* rating-card */
 .rating-card {
   display: flex;
-  justify-content: center;  
+  justify-content: space-evenly;  
 }
 
 @media(max-width:770px){
