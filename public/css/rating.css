@@ -1,4 +1,6 @@
 .starability-result {
+  display: flex;
+  flex: wrap;
   position: relative;
   width: 150px;
   height: 30px;
