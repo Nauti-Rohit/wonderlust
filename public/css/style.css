@@ -126,13 +126,6 @@ body {
 /* rating-Card */
 
 
-.rating-card{
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-
-
 /* map */
 #map {
   height: 400px;
