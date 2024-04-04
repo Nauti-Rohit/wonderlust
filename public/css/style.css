@@ -125,11 +125,14 @@ body {
 
 /* rating-card */
 .rating-card {
-    display: flex;
-  flex:wrap;
-  justify-content: center;
-  align-items: center;
-  
+  display: flex;
+  justify-content: center;  
+}
+
+@media(max-width:770px){
+  .rating-card{
+    flex-wrap: wrap;
+  }
 }
 
 /* map */
