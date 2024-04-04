@@ -125,8 +125,10 @@ body {
 
 /* rating-card */
 .rating-card {
-  display:flex;
-  flex-warp:wrap;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
   
 }
 
