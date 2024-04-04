@@ -104,6 +104,7 @@ body {
 /* Edit Page */
 
 .edit-btn {
+  width: 10px;
   background-color: #fe424d !important;
   border: none !important;
 }
