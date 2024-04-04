@@ -124,7 +124,7 @@ body {
 }
 
 /* rating-Card */
-@media(max-width:775px){
+@media(max-width: 775px){
 .rating-card{
   display: flex;
   flex-wrap: wrap;
