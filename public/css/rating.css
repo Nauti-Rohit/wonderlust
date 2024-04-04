@@ -198,10 +198,3 @@
   -webkit-transition: background-position 0.7s;
   transition: background-position 0.7s;
 }
-
-@media (max-width:770px){
-  .rating.card{
-    height: 8px;
-    
-    width: 5px;
-  }
