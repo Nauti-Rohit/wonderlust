@@ -124,6 +124,11 @@ body {
 }
 
 /* rating-Card */
+
+.rating-card{
+  display: flex;
+  justify-content: space-evenly;
+}
 @media(max-width: 775px){
 .rating-card{
   display: flex;
