@@ -125,16 +125,13 @@
       <p><b>ALL Reviews</b></p>
 
       <% for (review of listing.reviews) {%>
-      <div class="card ms-4 mb-3 ">
+      <div class="card ms-4 mb-3 mr-3">
         <div class="card-body">
           <h5 class="card-title">@<%= review.author.username %></h5>
-          <p
-            class="starability-result card-text"
-            data-rating="<%=review.rating%>"
-          ></p>
+          <p class="starability-result card-text"
+            data-rating="<%=review.rating%>"></p>
 
           <p class="card-text"><%=review.comment%></p>
-
           <form
             class="mb-3"
             method="POST"
