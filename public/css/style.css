@@ -127,6 +127,7 @@ body {
 
 .rating-card{
   display:flex;
+  flex-wrap:wrap;
 }
 
 /* map */
