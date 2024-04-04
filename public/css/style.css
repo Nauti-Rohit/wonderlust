@@ -123,18 +123,6 @@ body {
   padding-right: 0;
 }
 
-/* rating-card */
-.rating-card {
-  display: flex;
-  justify-content: space-evenly;  
-}
-
-@media(max-width:770px){
-  .rating-card{
-    flex-wrap: wrap;
-  }
-}
-
 /* map */
 #map {
   height: 400px;
