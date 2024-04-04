@@ -17,23 +17,23 @@
 }
 
 .starability-result[data-rating="5"]::after {
-  width: 50px;
+  width: 100px;
 }
 
 .starability-result[data-rating="4"]::after {
-  width: 40px;
+  width: 80px;
 }
 
 .starability-result[data-rating="3"]::after {
-  width: 30px;
+  width: 60px;
 }
 
 .starability-result[data-rating="2"]::after {
-  width: 20px;
+  width: 40px;
 }
 
 .starability-result[data-rating="1"]::after {
-  width: 10px;
+  width: 20px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -51,7 +51,7 @@
 .starability-slot {
   display: block;
   position: relative;
-  width: 50px;
+  width: 150px;
   min-height: 30px;
   padding: 0;
   border: none;
@@ -111,7 +111,7 @@
   position: relative;
   display: inline-block;
   float: left;
-  width: 10px;
+  width: 20px;
   height: 30px;
   font-size: 0.1em;
   color: transparent;
@@ -133,27 +133,27 @@
 }
 
 .starability-slot > label:nth-of-type(5)::before {
-  width: 40px;
+  width: 80px;
   left: -120px;
 }
 
 .starability-slot > label:nth-of-type(4)::before {
-  width: 30px;
+  width: 60px;
   left: -90px;
 }
 
 .starability-slot > label:nth-of-type(3)::before {
-  width: 20px;
+  width: 40px;
   left: -60px;
 }
 
 .starability-slot > label:nth-of-type(2)::before {
-  width: 10px;
+  width: 20px;
   left: -30px;
 }
 
 .starability-slot > label:nth-of-type(1)::before {
-  width: 0px;
+  width: 10px;
   left: 0px;
 }
 
