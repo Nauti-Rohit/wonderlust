@@ -123,6 +123,12 @@ body {
   padding-right: 0;
 }
 
+/* rating-Card */
+
+.rating-card{
+  display:flex;
+}
+
 /* map */
 #map {
   height: 400px;
