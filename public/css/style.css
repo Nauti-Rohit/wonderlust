@@ -104,9 +104,9 @@ body {
 /* Edit Page */
 
 .edit-btn {
-  width: 10px;
+  width: auto;
   background-color: #fe424d !important;
-  border: none !important;
+/*   border: none !important; */
 }
 
 /* Show Page */
