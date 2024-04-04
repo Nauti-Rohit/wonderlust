@@ -124,10 +124,11 @@ body {
 }
 
 /* rating-Card */
-
+@media(max-width:775px){
 .rating-card{
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
 }
 
 /* map */
