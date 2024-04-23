@@ -3,11 +3,11 @@
   const mapToken = "<%= process.env.MAP_TOKEN %>";
   const listing = <%- JSON.stringify(listing) %>;
 </script>
-<div class="row mt-3 ">
+<div class="row mt-3">
   <div class="col-8 offset-2">
     <h3><%= listing.title %></h3>
   </div>
-  <div class="card col-6 offset-3 show-card listing-card ">
+  <div class="card col-8 offset-3 show-card listing-card">
     <img
       class="card-img-top show-img"
       src="<%= listing.image.url %>"
@@ -54,7 +54,7 @@
       novalidate
       class="needs-validation"
     >
-      <div class="mb-3 mt-3">
+      <div class="mb-3 mt-3 shadow-sm p-3 mb-5 mr-5 bg-white rounded">
         <label for="rating" class="form-lable">Rating</label>
 
         <fieldset class="starability-slot">
@@ -125,7 +125,7 @@
       <p><b>ALL Reviews</b></p>
 
       <% for (review of listing.reviews) {%>
-      <div class="card ms-4 mb-3 mr-3 shadow-sm p-3 mb-5 bg-white rounded">
+      <div class="card ms-4 mb-3 mr-3 shadow-sm p-3 mb-5 mr-5 bg-white rounded">
         <div class="card-body">
           <h5 class="card-title">@<%= review.author.username %></h5>
           <p class="starability-result card-text"
@@ -146,7 +146,7 @@
     <hr />
     <%}%>
   </div>
-<div class="col-8 offset-3 mb-3 shadow-sm rounded">
+<div class="col-8 offset-3 mb-3">
   <h3>Where you'll be</h3>
   <div id="map"></div>
 </div>
