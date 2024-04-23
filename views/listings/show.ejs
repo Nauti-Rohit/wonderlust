@@ -1,13 +1,13 @@
-`<% layout("layouts/boilerplate") %>
+<% layout("layouts/boilerplate") %>
 <script>
   const mapToken = "<%= process.env.MAP_TOKEN %>";
   const listing = <%- JSON.stringify(listing) %>;
 </script>
-<div class="row mt-3 shadow p-3 mb-5 bg-white rounded">
+<div class="row mt-3 shadow-lg p-3 mb-5 bg-white rounded">
   <div class="col-8 offset-2">
     <h3><%= listing.title %></h3>
   </div>
-  <div class="card col-6 offset-3 show-card listing-card">
+  <div class="card col-6 offset-3 show-card listing-card shadow-lg p-3 mb-5 bg-white rounded">
     <img
       class="card-img-top show-img"
       src="<%= listing.image.url %>"
@@ -44,7 +44,7 @@
   </div>
   <% } %>
 
-  <div class="col-8 offset-3 mb-3">
+  <div class="col-8 offset-3 mb-3 shadow p-3 mb-5 bg-white rounded">
     <hr />
     <% if(currUser) { %>
     <h4>Leave a Review</h4>
@@ -105,7 +105,7 @@
         </fieldset>
       </div>
 
-      <div class="mb-3 mt-3">
+      <div class="mb-3 mt-3 shadow p-3 mb-5 bg-white rounded">
         <label for="comment" class="form-lable"> Comments</label>
         <textarea
           name="review[comment]"
@@ -146,10 +146,11 @@
     <hr />
     <%}%>
   </div>
-</div>
-<div class="col-8 offset-3 mb-3">
+<div class="col-8 offset-3 mb-3 shadow p-3 mb-5 bg-white rounded">
   <h3>Where you'll be</h3>
   <div id="map"></div>
 </div>
+</div>
+
 
 <script src="/js/map.js"></script>
